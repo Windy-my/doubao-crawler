@@ -1,0 +1,11 @@
+playwright
+redis
+aiohttp
+fastapi
+uvicorn
+playwright-stealth
+
+# CDP 模式下推荐:patchright 是 Playwright 的 drop-in 替代,
+# 修复了 Playwright 在 CDP 上的 Runtime.enable 泄露。
+# 装上后 browser 后端会自动切换到它(cdp.py),未装则回退到 playwright。
+patchright

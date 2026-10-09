@@ -1,0 +1,26 @@
+# ===== 依赖 / 缓存 =====
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ===== 浏览器 profile：内含登录态(cookie)，绝不入库 =====
+.doubao_profile/
+.profiles/
+
+# ===== 本地数据与运行产出 =====
+data/
+test/
+test_cdp/
+*.log
+
+# ===== 密钥与环境 =====
+.env
+.env.local
+
+# ===== 编辑器 =====
+.idea/
+.vscode/
+.DS_Store
